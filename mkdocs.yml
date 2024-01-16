@@ -1,0 +1,5 @@
+site_name: SkyHigh'Blog
+nav:
+  - Home: index.md
+  - About: about.md
+theme: walt
