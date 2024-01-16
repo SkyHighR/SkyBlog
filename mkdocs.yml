@@ -1,5 +1,62 @@
 site_name: SkyHigh'Blog
+
+site_url: https://blog.skyhigh.moe/
+
 nav:
-  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Welcome: index.md
   - About: about.md
-theme: walt
+  - Chronicle: 1704556800.md
+
+theme:
+  name: material
+  font:
+    text: Noto Sans SC
+    code: Ubuntu
+  favicon: img/favicon.ico
+  logo: img/l.png
+  language: zh-TW
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  homepage: https://blog.skyhigh.moe
+
+site_author: SkyHigh
+
+copyright: Copyright &copy; 2019 - 2024 SkyHigh
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/moeSkyHigh
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<hi@skyhigh.moe>
+
+plugins:
+  - blog:
+      enabled: true
+      blog_toc: true
+      post_readtime: true
+      post_readtime_words_per_minute: 322
+      pagination: true
+      pagination_per_page: 9
+      post_date_format: full
+      blog_dir: blog
+      authors_file: "{blog}/.authors.yml"
