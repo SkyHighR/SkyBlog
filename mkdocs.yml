@@ -1,5 +1,5 @@
 site_name: SkyHigh'Blog
-
+site_author: SkyHigh
 site_url: https://blog.skyhigh.moe/
 
 nav:
@@ -15,6 +15,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Noto Sans SC
     code: Ubuntu
@@ -22,6 +23,8 @@ theme:
   logo: img/l.png
   language: zh-TW
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -31,6 +34,9 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
+    - announce.dismiss
+    - content.code.copy
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -46,18 +52,24 @@ theme:
         name: Switch to light mode
   homepage: https://blog.skyhigh.moe
 
-site_author: SkyHigh
-
-copyright: Copyright &copy; 2019 - 2024 SkyHigh
+copyright: Copyright &copy; 2016-2024 SkyHigh
 extra:
   social:
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/square-github
+      link: https://github.com/SkyHighR
+    - icon: fontawesome/brands/square-x-twitter
       link: https://x.com/moeSkyHigh
-    - icon: fontawesome/solid/paper-plane
+    - icon: fontawesome/solid/envelope
       link: mailto:<hi@skyhigh.moe>
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/moeSkyHigh
 
 plugins:
-  - search
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
   - blog:
       enabled: true
       blog_toc: true
@@ -71,3 +83,28 @@ plugins:
       post_date_format: full
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
