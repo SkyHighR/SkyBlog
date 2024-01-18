@@ -6,6 +6,17 @@ nav:
       - stoic/index.md
       - Daily Stoic:
           - stoic/m01.md
+          - stoic/m02.md
+          - stoic/m03.md
+          - stoic/m04.md
+          - stoic/m05.md
+          - stoic/m06.md
+          - stoic/m07.md
+          - stoic/m08.md
+          - stoic/m09.md
+          - stoic/m10.md
+          - stoic/m11.md
+          - stoic/m12.md
 
   - Chronicle: 1704556800.md
 
@@ -18,7 +29,7 @@ theme:
   custom_dir: overrides
   font:
     text: Noto Sans SC
-    code: Ubuntu
+    code: Noto Sans SC
   favicon: img/favicon.ico
   logo: img/l.png
   language: zh-TW
@@ -112,3 +123,5 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true

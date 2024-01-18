@@ -76,6 +76,7 @@ tags on separate lines and adding new lines between the tags and the content.
 - ==This was marked==
 - ^^This was inserted^^
 - ~~This was deleted~~
+- __加粗__
 
 ++ctrl+alt+del++
 
@@ -106,7 +107,7 @@ etc。。
 ## 网格
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __HTML__ for content and structure
+- [:fontawesome-brands-html5: __HTML__ for content and structure](https://a.com)
 - :fontawesome-brands-js: __JavaScript__ for interactivity
 - :fontawesome-brands-css3: __CSS__ for text running out of boxes
 - :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
