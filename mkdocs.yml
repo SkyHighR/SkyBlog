@@ -45,7 +45,8 @@ theme:
     - search.share
     - announce.dismiss
     - content.code.copy
-    #- navigation.prune
+    - navigation.instant
+    - navigation.prune
 
   palette:
     - media: "(prefers-color-scheme: light)"
