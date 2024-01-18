@@ -1,5 +1,5 @@
 ---
-draft: false 
+draft: true 
 date:
   created: 2024-01-07 
   updated: 2024-01-17 
@@ -7,7 +7,9 @@ slug: mkdoclearn
 authors:
   - skyhigh
 categories:
-  - Learn
+  - 学习
+  - 分享
+  - 日常
 ---
 
 # Mkdoc Test

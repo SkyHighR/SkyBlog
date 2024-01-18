@@ -2,52 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://blog.skyhigh.moe/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.skyhigh.moe/1704556800/</loc>
-         <lastmod>2024-01-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://blog.skyhigh.moe/about/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.skyhigh.moe/blog/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.skyhigh.moe/blog/2024/01/07/mkdoclearn/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <loc>https://blog.skyhigh.moe/blog/2024/01/16/resumption/</loc>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.skyhigh.moe/blog/2024/01/31/hello-world/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <loc>https://blog.skyhigh.moe/stoic/</loc>
+         <lastmod>2024-01-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://blog.skyhigh.moe/stoic/m01/</loc>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://blog.skyhigh.moe/blog/archive/2024/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.skyhigh.moe/blog/category/hello/</loc>
-         <lastmod>2024-01-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://blog.skyhigh.moe/blog/category/world/</loc>
-         <lastmod>2024-01-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://blog.skyhigh.moe/blog/category/learn/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <loc>https://blog.skyhigh.moe/blog/category/%E6%97%A5%E5%B8%B8/</loc>
+         <lastmod>2024-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

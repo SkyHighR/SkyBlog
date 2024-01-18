@@ -1,17 +1,17 @@
-site_name: SkyHigh'Blog
-site_author: SkyHigh
-site_url: https://blog.skyhigh.moe/
-
 nav:
   - Welcome: index.md
   - Blog:
       - blog/index.md
-  #  - Sky:
-  #      SkyHihg:
-  #         - p0/3.md
+  - Stoic:
+      - stoic/index.md
+      - Daily Stoic:
+          - stoic/m01.md
 
-  - About: about.md
   - Chronicle: 1704556800.md
+
+site_name: SkyHigh'Blog
+site_author: SkyHigh
+site_url: https://blog.skyhigh.moe/
 
 theme:
   name: material
@@ -23,30 +23,31 @@ theme:
   logo: img/l.png
   language: zh-TW
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
+    - navigation.expand
     - navigation.top
     - navigation.indexes
     - toc.follow
-    - toc.integrate
     - search.highlight
     - search.suggest
     - search.share
     - announce.dismiss
     - content.code.copy
+    #- navigation.prune
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: custom
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -63,6 +64,9 @@ extra:
       link: mailto:<hi@skyhigh.moe>
     - icon: fontawesome/brands/telegram
       link: https://t.me/moeSkyHigh
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search:
