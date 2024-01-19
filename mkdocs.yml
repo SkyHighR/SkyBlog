@@ -2,21 +2,23 @@ nav:
   - Welcome: index.md
   - Blog:
       - blog/index.md
-  - Stoic:
+  - DailyStoic:
       - stoic/index.md
-      - Daily Stoic:
-          - stoic/m01.md
-          - stoic/m02.md
-          - stoic/m03.md
-          - stoic/m04.md
-          - stoic/m05.md
-          - stoic/m06.md
-          - stoic/m07.md
-          - stoic/m08.md
-          - stoic/m09.md
-          - stoic/m10.md
-          - stoic/m11.md
-          - stoic/m12.md
+      - 一周目:
+          - stoic/0001/m01.md
+          - stoic/0001/m02.md
+          - stoic/0001/m03.md
+          - stoic/0001/m04.md
+          - stoic/0001/m05.md
+          - stoic/0001/m06.md
+          - stoic/0001/m07.md
+          - stoic/0001/m08.md
+          - stoic/0001/m09.md
+          - stoic/0001/m10.md
+          - stoic/0001/m11.md
+          - stoic/0001/m12.md
+      - Archive:
+          - stoic/archive.md
 
   - Chronicle: 1704556800.md
 
