@@ -36,7 +36,7 @@ jobs:
           production_branch: "skymain"
           app_location: "" # App source code path relative to repository root
           api_location: "" # Api source code path relative to repository root - optional
-          output_location: "site" # Built app content directory, relative to app_location - optional
+          output_location: "site"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
