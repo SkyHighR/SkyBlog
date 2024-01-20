@@ -1,4 +1,4 @@
-name: ALL-BRANCHES-ALL-PRs-build-and-deploy-to-azure.yml
+name: Deploy-to-Azure
 
 on:
   push:
