@@ -17,6 +17,7 @@ nav:
           - stoic/0001/m10.md
           - stoic/0001/m11.md
           - stoic/0001/m12.md
+          - stoic/0001/m13.md
       - Archive:
           - stoic/archive.md
 
@@ -68,7 +69,7 @@ theme:
         name: Switch to light mode
   homepage: https://blog.skyhigh.moe
 
-copyright: Copyright &copy; 2016-2024 SkyHigh
+copyright: Copyright &copy; 2019-2024 SkyHigh
 extra:
   social:
     - icon: fontawesome/brands/square-github
