@@ -24,7 +24,6 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install mkdocs-material
-      - run: pip install -r requirements.txt
       - run: mkdocs build
       - name: Upload to Azure
         id: builddeploy
