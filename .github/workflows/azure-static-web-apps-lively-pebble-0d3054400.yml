@@ -1,50 +1,34 @@
-name: Deploy-to-Azure
+name: Azure Static Web Apps CI/CD
 
-on:
-  push:
-    branches:
-      - "**"
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
+pr:
+  branches:
+    include:
       - skymain
-permissions:
-  contents: write
-  pull-requests: write # this permission is required in order to allow PR comment with staging URL
-jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
-    runs-on: ubuntu-latest
-    name: Build and Deploy to Azure
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-      - run: pip install mkdocs-material
-      - run: mkdocs build
-      - name: Upload to Azure
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
-          action: "upload"
-          production_branch: "skymain"
-          app_location: "" # App source code path relative to repository root
-          api_location: "" # Api source code path relative to repository root - optional
-          output_location: "site"
+trigger:
+  branches:
+    include:
+      - skymain
 
-  close_pull_request_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
-    runs-on: ubuntu-latest
-    name: Close Pull Request Job
+jobs:
+  - job: build_and_deploy_job
+    displayName: Build and Deploy Job
+    condition: or(eq(variables['Build.Reason'], 'Manual'),or(eq(variables['Build.Reason'], 'PullRequest'),eq(variables['Build.Reason'], 'IndividualCI')))
+    pool:
+      vmImage: ubuntu-latest
+    variables:
+      - group: azure-static-web-apps-lively-pebble-0d3054400-variable-group
     steps:
-      - name: Close Pull Request
-        id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          action: "close"
+      - checkout: self
+        submodules: true
+      - bash: |
+          pip install mkdocs mkdocs-material
+          mkdocs build
+      - task: AzureStaticWebApp@0
+        inputs:
+          azure_static_web_apps_api_token: $(AZURE_STATIC_WEB_APPS_API_TOKEN_LIVELY_PEBBLE_0D3054400)
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "/site/" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "/" # Built app content directory - optional
+###### End of Repository/Build Configurations ######
