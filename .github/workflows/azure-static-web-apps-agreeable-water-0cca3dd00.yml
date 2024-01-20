@@ -1,23 +1,17 @@
 name: Azure Static Web Apps CI/CD
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
   push:
-    branches: 
+    branches:
       - gh-pages
   pull_request:
-    types: [opened, synchronize, reopened, closed] 
-    branches: 
+    types: [opened, synchronize, reopened, closed]
+    branches:
       - gh-pages
   commit:
-    branches: 
+    branches:
       - gh-pages
-
-jobs:
-  pages-br-ci:
-
-  build-and-deploy: 
-    
 
 jobs:
   pages-br-ci:
