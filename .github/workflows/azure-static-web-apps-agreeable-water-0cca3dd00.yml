@@ -1,6 +1,8 @@
 name: Azure Static Web Apps CI/CD
 
 on:
+  workflow_dispatch:
+  needs: pages-br-ci
   push:
     branches:
       - gh-pages
@@ -8,10 +10,13 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - gh-pages
+  commit:
+    branches:
+      - gh-pages
 
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    if: github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'commit' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
