@@ -48,6 +48,7 @@ theme:
     - announce.dismiss
     - content.code.copy
     - navigation.instant
+    - navigation.instant.progress
     - navigation.prune
 
   palette:
