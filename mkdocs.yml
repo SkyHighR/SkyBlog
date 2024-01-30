@@ -20,10 +20,9 @@ nav:
           - stoic/0001/m13.md
       - Archive:
           - stoic/archive.md
-  - K-ON:
-      - kon/kon.md
-
-  - Chronicle: 1704556800.md
+  - Times:
+      - 1704556800.md
+      - kon.md
 
 site_name: SkyHigh'Blog
 site_author: SkyHigh
