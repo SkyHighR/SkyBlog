@@ -70,7 +70,7 @@ theme:
         name: Switch to light mode
   homepage: https://blog.skyhigh.moe
 
-copyright: Copyright &copy; 2019-2024 SkyHigh
+copyright: 2019-2024 SkyHigh; CC BY-NC 4.0
 extra:
   social:
     - icon: fontawesome/brands/square-github
@@ -79,8 +79,6 @@ extra:
       link: https://x.com/moeSkyHigh
     - icon: fontawesome/solid/envelope
       link: mailto:<hi@skyhigh.moe>
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/SkyHi6369
 
 extra_css:
   - stylesheets/extra.css
