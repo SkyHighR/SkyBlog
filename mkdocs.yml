@@ -24,7 +24,7 @@ nav:
       - 1704556800.md
       - kon.md
 
-site_name: SkyHigh'Blog
+site_name: SkyHigh'Site
 site_author: SkyHigh
 site_url: https://blog.skyhigh.moe/
 
@@ -40,6 +40,7 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
+    - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes
@@ -98,7 +99,7 @@ plugins:
       post_excerpt_separator: <!-- uptoc -->
       pagination: true
       pagination_per_page: 9
-      archive_date_format: MMMM yyyy
+      archive_date_format: yyyy
       post_date_format: full
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
