@@ -30,7 +30,7 @@ site_url: https://blog.skyhigh.moe/
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   font:
     text: Noto Sans SC
     code: Noto Sans SC
