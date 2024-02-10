@@ -35,7 +35,7 @@ theme:
     text: Noto Sans SC
     code: Noto Sans SC
   favicon: img/favicon.ico
-  logo: img/l.png
+  logo: img/l.svg
   language: zh-TW
   features:
     - navigation.tracking
