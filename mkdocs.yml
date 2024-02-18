@@ -1,5 +1,7 @@
 nav:
-  - Welcome: index.md
+  - Home: index.md
+  - Twitter:
+      - nya/24-1.md
   - Blog:
       - blog/index.md
   - DailyStoic:
