@@ -1,29 +1,27 @@
 nav:
-  - Home: index.md
-  - Twitter:
+  - Timeline:
+      - index.md
       - nya/24-1.md
   - Blog:
       - blog/index.md
-  - DailyStoic:
-      - stoic/index.md
-      - 一周目:
-          - stoic/0001/m01.md
-          - stoic/0001/m02.md
-          - stoic/0001/m03.md
-          - stoic/0001/m04.md
-          - stoic/0001/m05.md
-          - stoic/0001/m06.md
-          - stoic/0001/m07.md
-          - stoic/0001/m08.md
-          - stoic/0001/m09.md
-          - stoic/0001/m10.md
-          - stoic/0001/m11.md
-          - stoic/0001/m12.md
-          - stoic/0001/m13.md
-      - Archive:
-          - stoic/archive.md
-  - Times:
-      - 1704556800.md
+  - Outlook:
+      - see/index.md
+      - see/list.md
+      - Stoic 一周目:
+          - see/stoic0/m01.md
+          - see/stoic0/m02.md
+          - see/stoic0/m03.md
+          - see/stoic0/m04.md
+          - see/stoic0/m05.md
+          - see/stoic0/m06.md
+          - see/stoic0/m07.md
+          - see/stoic0/m08.md
+          - see/stoic0/m09.md
+          - see/stoic0/m10.md
+          - see/stoic0/m11.md
+          - see/stoic0/m12.md
+          - see/stoic0/m13.md
+  - About:
       - kon.md
 
 site_name: SkyHigh
@@ -42,7 +40,7 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes
@@ -60,14 +58,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
-      accent: indigo
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to light mode
