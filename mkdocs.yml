@@ -1,7 +1,6 @@
 nav:
-  - Timeline:
+  - Home:
       - index.md
-      - nya/24-1.md
   - Blog:
       - blog/index.md
   - Outlook:
@@ -9,8 +8,6 @@ nav:
       - see/list.md
       - see/stoic.md
       - Stoic 一周目:
-          - see/stoic0/m01.md
-          - see/stoic0/m02.md
           - see/stoic0/m03.md
           - see/stoic0/m04.md
           - see/stoic0/m05.md
