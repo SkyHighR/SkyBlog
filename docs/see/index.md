@@ -1,5 +1,6 @@
 ---
 status: new
+comments: true
 ---
 
 
