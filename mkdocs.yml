@@ -18,7 +18,7 @@ site_url: https://blog.skyhigh.moe/
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   font:
     text: Noto Sans SC
     code: Noto Sans SC
@@ -62,10 +62,6 @@ theme:
 copyright: 2019-2024 SkyHigh; CC BY-NC 4.0
 extra:
   social:
-    - icon: fontawesome/brands/square-github
-      link: https://github.com/SkyHighR
-    - icon: fontawesome/brands/square-x-twitter
-      link: https://x.com/moeSkyHigh
     - icon: fontawesome/solid/envelope
       link: mailto:<hi@skyhigh.moe>
 
