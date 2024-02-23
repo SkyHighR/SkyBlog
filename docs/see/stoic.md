@@ -14,4 +14,14 @@
 ???+ abstract "一周目目录"
     - [A](./stoic0/m01.md)
     - [B](./stoic0/m02.md)
-    
+    - [C](./stoic0/m03.md)
+    - [D](./stoic0/m04.md)
+    - [E](./stoic0/m05.md)
+    - [F](./stoic0/m06.md)
+    - [G](./stoic0/m07.md)
+    - [H](./stoic0/m08.md)
+    - [I](./stoic0/m09.md)
+    - [J](./stoic0/m10.md)
+    - [K](./stoic0/m11.md)
+    - [L](./stoic0/m12.md)
+    - [X](./stoic0/m13.md)

@@ -1,26 +1,16 @@
 nav:
-  - Home:
+  - MainPage:
       - index.md
+      - nya/all.md
+      - about.md
+      - Project:
+          - kon.md
   - Blog:
       - blog/index.md
   - Outlook:
       - see/index.md
       - see/list.md
       - see/stoic.md
-      - Stoic 一周目:
-          - see/stoic0/m03.md
-          - see/stoic0/m04.md
-          - see/stoic0/m05.md
-          - see/stoic0/m06.md
-          - see/stoic0/m07.md
-          - see/stoic0/m08.md
-          - see/stoic0/m09.md
-          - see/stoic0/m10.md
-          - see/stoic0/m11.md
-          - see/stoic0/m12.md
-          - see/stoic0/m13.md
-  - About:
-      - kon.md
 
 site_name: SkyHigh
 site_author: SkyHigh
@@ -38,7 +28,7 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
-    # - navigation.sections
+    - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.indexes

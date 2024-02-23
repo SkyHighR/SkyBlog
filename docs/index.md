@@ -1,20 +1,19 @@
 ---
 status: new
 ---
-# 这里是SkyHigh的小破站
-
-## 施工中
-
-
-
-
+# 欢迎\いらっしゃいませ/Welcome
 
 <div class="grid cards" markdown>
 
--   :material-message-draw:{ .lg .middle } __DailyTimeLine__
+-   :fontawesome-solid-cat:{ .lg .middle } 这里是SkyHigh.Moe的主导航页面
 
     ---
-    [24春](./nya/24-1.md)&ensp;[24夏](./nya/24-2.md)
+    - 这里有如下板块
+
+    [项目  :material-book-play-outline:](./about){ .md-button }
+    [博客  :fontawesome-solid-blog:](./blog){ .md-button }
+    [看看  :material-comment-question:](./see){ .md-button }
+    
 
 
 </div>
