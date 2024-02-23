@@ -2,19 +2,19 @@
 {% extends "base.html" %}
 
 {% block scripts %}
-
+<div class="sakana-box"></div>
+<script src="https://cdn.jsdelivr.net/npm/sakana?v=chisato"></script>
+  <script>
+  Sakana.init({
+      el: '.sakana-box',
+      character: 'chisato',
+      y: 10,
+      scale: 0.3,
+      canSwitchCharacter: false,
+      inertia: 0.03,
+      decay: 0.98,
+  });
+  </script>
   {{ super() }}
-  <div class="sakana-box"></div>
-  <script src="https://cdn.jsdelivr.net/npm/sakana?v=chisato"></script>
-    <script>
-    Sakana.init({
-        el: '.sakana-box',
-        character: 'chisato',
-        y: 10,
-        scale: 0.3,
-        canSwitchCharacter: false,
-        inertia: 0.03,
-        decay: 0.98,
-    });
-    </script>
+  
 {% endblock %}
