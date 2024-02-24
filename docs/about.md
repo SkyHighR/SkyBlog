@@ -1,20 +1,30 @@
 ---
 comments: true
+hide:
+    - toc
 ---
-# About
+
+# ABOUT
 
 <div class="grid cards" markdown>
 
 -   :material-comment-account:{ .lg .middle } __如何找到SkyHigh:material-format-quote-close-outline:__
 
     ---
-    - [Github  :simple-telegram:](https://github.com/SkyHighR){ .md-button }
+    - [Github  :simple-github:](https://github.com/SkyHighR){ .md-button }
     - [Twitter  :simple-twitter:](https://twitter.com/moeSkyHigh){ .md-button }
     - [Discord  :simple-discord:](https://discord.gg/vyjku5Np){ .md-button }
-    - [Telegram  :simple-github:](https://t.me/moeSkyHigh){ .md-button }
+    - [Telegram  :simple-telegram:](https://t.me/moeSkyHigh){ .md-button }
+
     ---
-    - [Me.SkyHigh.Moe  :simple-bookmyshow:](https://Me.SkyHigh.Moe){ .md-button }**:material-arrow-left-box: 更多请见**
     
+</div>
 
+<div class="grid cards" markdown>
 
+-   **Question：至于为什么叫SkyHigh呢:simple-bookmyshow:**
+
+    ---
+    - 其实是来自于一部Sky最喜欢的动漫：[**轻音少女**](https://zh.wikipedia.org/zh-cn/K-ON%EF%BC%81%E8%BC%95%E9%9F%B3%E9%83%A8)
+    
 </div>
