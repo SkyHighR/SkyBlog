@@ -37,7 +37,7 @@ hide:
     ---
 
     - [SkyBox  :material-folder-google-drive:](https://box.skyhigh.moe){ .md-button }：基于[Alist](https://github.com/alist-org/alist)的网盘挂载站
-    - [NachonekoMaker  :material-cat:](https://nacho.skyhigh.moe){ .md-button }：基于[Amachiromaker](https://github.com/charlie0129/amachiromaker)的NachonekoMaker
+    - [NachonekoMaker  :material-cat:](https://nacho.skyhigh.moe){ .md-button }：基于[Amachiromaker](https://github.com/charlie0129/amachiromaker)的NachonekoMaker,没错就是下面那张图( •̀ ω •́ )y
 
 
 </div>
