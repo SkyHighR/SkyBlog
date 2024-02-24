@@ -1,7 +1,6 @@
 nav:
   - MainPage:
       - index.md
-      - nya/index.md
       - about.md
   - Blog:
       - blog/index.md
@@ -10,6 +9,12 @@ nav:
       - see/stoic.md
   - Project:
       - pjt/index.md
+  - TimeLine:
+      - nya/index.md
+      - nya/24-1.md
+      - nya/24-2.md
+      - nya/24-3.md
+      - nya/24-4.md
 
 site_name: SkyHigh
 site_author: SkyHigh
@@ -58,13 +63,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/theme-light-dark
-        name: Switch to system preference
 
 copyright: 2019-2024 SkyHigh; CC BY-NC 4.0
 extra:
