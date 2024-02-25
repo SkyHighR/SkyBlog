@@ -8,7 +8,7 @@ hide:
 
 ---
 
-## **:material-invoice-list-outline:下面是关于这里的一些导航**
+## **:material-power-socket-jp:要要要看哪里呐**
 
 <div class="grid" markdown>
 
@@ -18,13 +18,13 @@ hide:
 :material-message-draw: [__TimeLine 时间线__ :一些想说的话](./nya/index.md)
 { .card }
 
-:material-cloud-question: [__Essays 随笔__ :脑子里乱七八糟的东西](./see/index.md)
+:simple-writedotas: [__Essays 随笔__ :脑子里乱七八糟的东西](./see/index.md)
 { .card }
 
-:material-book-alert: [__Project 项目__ :奇怪的的项目](./pjt/index.md)
+:simple-openproject: [__Project 项目__ :奇怪的的项目](./proj/index.md)
 { .card }
 
-:material-cookie-alert-outline: [__About 关于__ :关于这个奇怪的人](./about.md)
+:simple-bookmyshow: [__About 关于__ :关于这个奇怪的人](./about.md)
 { .card }
 
 
