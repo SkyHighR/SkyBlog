@@ -12,7 +12,7 @@ hide:
 
 ---
 
-- **TimeLine(时间线)这个名词我取自于推特这个用于分享记录自己的微博客及社交网络。我这里也一样，用于分享自己日常的博客，但是是更多用于记录平凡的自己，几乎没有社交的地方。**
+- **TimeLine(时间线)这个名词我取自于推特这个用于分享记录自己的微博客及社交网络。我这里也一样，用于分享自己日常的博客，但是是更多用于记录平凡的自己、内心的独白，几乎只有SkyHigh自己的地方。**
 - 没有理由，单纯的记录而已
 - 由[Giscus](https://github.com/giscus/giscus)和[GithubDiscussions](https://github.com/SkyHighR/SkyHighR.GitHub.io/discussions)驱动
 
