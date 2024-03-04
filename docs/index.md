@@ -18,7 +18,7 @@ hide:
 :material-message-draw: [__TimeLine 时间线__ :一些想说的话](./nya/index.md)
 { .card }
 
-:simple-writedotas: [__Essays 随笔__ :脑子里乱七八糟的东西](./see/index.md)
+:simple-writedotas: [__Null__ :"None"](./see/index.md)
 { .card }
 
 :simple-openproject: [__Project 项目__ :奇怪的的项目](./proj/index.md)
