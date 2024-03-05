@@ -43,7 +43,7 @@ theme:
     - search.share
     - announce.dismiss
     - content.code.copy
-    #- navigation.instant
+    - navigation.instant
     - navigation.instant.progress
     - navigation.prune
 
