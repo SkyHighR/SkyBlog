@@ -3,7 +3,7 @@ draft: true
 comments: true
 date:
   created: 2024-04-03
-slug: myday01
+slug: emptysky
 authors:
   - skyhigh
 categories:
@@ -11,6 +11,6 @@ categories:
   - 自我
 ---
 
-# **12 Hours**
+# **放空自我**
 
 <!-- uptoc -->

@@ -31,4 +31,4 @@ hide:
     
 </div>
 
-- **[SkyHigh.Moe](https://skyhigh.moe/) © 2024 by [SkyHigh](https://skyhigh.moe/about/) is licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0)**
+- **[SkyHigh.Moe](https://skyhigh.moe/) 由 [SkyHigh](https://skyhigh.moe/about/) 建立. "随意转载 无需标注出处"**
