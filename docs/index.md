@@ -29,7 +29,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-format-quote-open-outline:**这里是一些附属站点**:material-format-quote-close-outline:
+-   :material-format-quote-open-outline:**这里是一些Sky的站点**:material-format-quote-close-outline:
 
     ---
 
