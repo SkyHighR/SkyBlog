@@ -13,7 +13,7 @@
     <script>
         function initSakanaWidget() {
             var path = window.location.pathname;
-            var excludedPathPrefixes = ['/nya', '/proj'];
+            var excludedPathPrefixes = ['/nya', '/proj', '/blog'];
             if (excludedPathPrefixes.some(prefix => path.startsWith(prefix))) {
                 return; // Don't show the widget on these paths
             }
