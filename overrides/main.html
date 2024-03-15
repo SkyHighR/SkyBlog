@@ -13,29 +13,27 @@
     <script>
         function initSakanaWidget() {
             var path = window.location.pathname;
-            if (path !== '/nya') {
-                const chisato = SakanaWidget.getCharacter('chisato');
-                chisato.initialState = {
-                    ...chisato.initialState,
-                    i: 0.002,
-                    d: 0.998,
-                };
-                chisato.image = `https://tgs.sgp1.digitaloceanspaces.com/www888_by_fStikBot/smiley_cat_ff1a1d28.gif`;
-                SakanaWidget.registerCharacter('chisato-slow', chisato);
-                new SakanaWidget({ character: 'chisato-slow' }).mount('#sakana-widget');
+            var excludedPathPrefixes = ['/nya', '/proj'];
+            if (excludedPathPrefixes.some(prefix => path.startsWith(prefix))) {
+                return; // Don't show the widget on these paths
             }
+            const chisato = SakanaWidget.getCharacter('chisato');
+            chisato.initialState = {
+                ...chisato.initialState,
+                i: 0.002,
+                d: 0.998,
+            };
+            chisato.image = `https://mypic.skyhigh.moe/aMyPicURL/other/sky-xxmcry.gif`;
+            SakanaWidget.registerCharacter('chisato-slow', chisato);
+            new SakanaWidget({ character: 'chisato-slow' }).mount('#sakana-widget');
         }
     </script>
 
-    <script>
-        var path = window.location.pathname;
-        if (path !== '/nya') {
-            var script = document.createElement('script');
-            script.async = true;
-            script.onload = initSakanaWidget;
-            script.src = "https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js";
-            document.head.appendChild(script);
-        }
+    <script
+    async
+    onload="initSakanaWidget()"
+    src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
+    >
     </script>
     
 
