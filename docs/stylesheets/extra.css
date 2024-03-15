@@ -1,12 +1,10 @@
 #sakana-widget {
   position: fixed;
-  right: 0;
+  left: 0;
   bottom: 0;
   transform: scale(0.8);
   transform-origin: bottom right;
 }
-
-
 
 :root {
   --md-primary-fg-color:        #559cff;
