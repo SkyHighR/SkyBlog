@@ -30,5 +30,3 @@ hide:
     ---
     
 </div>
-
-- **[SkyHigh.Moe](https://skyhigh.moe/) 由 [SkyHigh](https://skyhigh.moe/about/) 建立. "随意转载 无需标注出处"**

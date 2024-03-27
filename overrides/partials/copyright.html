@@ -1,0 +1,26 @@
+<!-- Copyright and theme information -->
+<div class="md-copyright">
+    {% if config.copyright %}
+      <div class="md-copyright__highlight">
+        {{ config.copyright }}
+      </div>
+    {% endif %}
+    {% if not config.extra.generator == false %}
+
+      SkyHigh.Moe Create By <a href="https://skyhigh.moe/about/">SkyHigh</a> "随意转载 无需标注"  2019~2024: <span id="total-days"></span>Day
+
+      <br>
+      
+      <a href="https://skyhigh.moe/">SkyHigh.Moe</a> was built by <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material For MkDocs</a>
+      <script>
+        function calculateRunningTime() {
+          const startDate = new Date('2019-09-01');
+          const now = new Date();
+          const differenceInMilliseconds = now - startDate;
+          const totalDays = Math.floor(differenceInMilliseconds / (1000 * 3600 * 24));
+          document.getElementById('total-days').textContent = totalDays;
+        }
+        document.addEventListener('DOMContentLoaded', calculateRunningTime);
+      </script>
+    {% endif %}
+</div>

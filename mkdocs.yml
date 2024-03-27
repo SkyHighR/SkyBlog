@@ -18,6 +18,14 @@ nav:
 
 site_name: SkyHigh
 site_author: SkyHigh
+site_url: https://skyhigh.moe/
+repo_url: https://github.com/SkyHighR/SkyHighR.GitHub.io
+repo_name: SkyHigh/Blog
+extra:
+  homepage: https://skyhigh.moe
+  social:
+    - icon: simple/codementor
+      link: https://mypic.skyhigh.moe/v/nana.mp4
 
 theme:
   name: material
@@ -27,7 +35,7 @@ theme:
     code: Noto Sans SC
   favicon: img/favicon.ico
   logo: img/l.svg
-  language: zh-TW
+  language: zh
   features:
     - navigation.tracking
     - navigation.tabs
@@ -62,17 +70,14 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 
-copyright: 2019-2024 SkyHigh
-extra:
-  homepage: https://skyhigh.moe
-  social:
-    - icon: simple/codementor
-      link: https://youtu.be/dQw4w9WgXcQ
-
-extra_css:
-  - stylesheets/extra.css
-
 plugins:
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%p %I:%M %a %d %b %Y"
+      timezone: Asia/Shanghai
+      exclude:
+        - blog/*
+      enable_creation_date: true
   - search:
       lang:
         - zh
@@ -91,6 +96,8 @@ plugins:
       post_date_format: full
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
+  - minify:
+      minify_html: true
 
 markdown_extensions:
   - admonition
@@ -118,3 +125,13 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

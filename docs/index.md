@@ -1,5 +1,6 @@
 ---
 status: new
+comments: true
 hide:
     - toc
 ---
@@ -15,7 +16,7 @@ hide:
 :fontawesome-solid-blog: [__Blog 博客__ :长文发表处](./blog/index.md)
 { .card }
 
-:material-message-draw: [__TimeLine 时间线__ :一些想说的话](./nya/index.md)
+:material-message-draw: [__TimeLine 时间线__ :一些想说的话](https://mypic.skyhigh.moe/v/nana.mp4)
 { .card }
 
 :simple-writedotas: [__Project 项目__ :奇怪的的项目](./proj/index.md)
@@ -29,12 +30,12 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-format-quote-open-outline:**这里是一些Sky的站点**:material-format-quote-close-outline:
+-   :material-format-quote-open-outline:**其他的玩意**:material-format-quote-close-outline:
 
     ---
 
     - [SkyBox  :material-folder-google-drive:](https://box.skyhigh.moe){ .md-button }：基于[Alist](https://github.com/alist-org/alist)的网盘挂载站
-    - [NachonekoMaker  :material-cat:](https://nacho.skyhigh.moe){ .md-button }：基于[Amachiromaker](https://github.com/charlie0129/amachiromaker)的NachonekoMaker,没错就是下面那张图( •̀ ω •́ )y
+    - [Nachoneko  :material-cat:](https://nacho.skyhigh.moe){ .md-button }：基于[Amachiromaker](https://github.com/charlie0129/amachiromaker)的NachonekoMaker
 
 
 </div>
