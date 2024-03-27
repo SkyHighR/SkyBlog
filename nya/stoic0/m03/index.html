@@ -1,0 +1,1219 @@
+
+<!doctype html>
+<html lang="zh-TW" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="SkyHigh">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>1-THREE - SkyHigh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CNoto+Sans+SC:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"Noto Sans SC"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-three" class="md-skip">
+          跳轉到
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
+    <a href="https://skyhigh.moe" title="SkyHigh" class="md-header__button md-logo" aria-label="SkyHigh" data-md-component="logo">
+      
+  <img src="../../../img/l.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SkyHigh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              1-THREE
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜尋" placeholder="搜尋" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="搜尋">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清除" aria-label="清除" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜尋引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="標籤" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+    
+  
+  MainPage
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../blog/" class="md-tabs__link">
+          
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  SkyHigh
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../proj/" class="md-tabs__link">
+          
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="導覽列" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://skyhigh.moe" title="SkyHigh" class="md-nav__button md-logo" aria-label="SkyHigh" data-md-component="logo">
+      
+  <img src="../../../img/l.svg" alt="logo">
+
+    </a>
+    SkyHigh
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../.." class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MainPage
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../blog/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    SkyHigh
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../proj/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#9-i" class="md-nav__link">
+    <span class="md-ellipsis">
+      周9-Ⅰ：学着淡然处之
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="周9-Ⅰ：学着淡然处之">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#57" class="md-nav__link">
+    <span class="md-ellipsis">
+      57
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#58" class="md-nav__link">
+    <span class="md-ellipsis">
+      58
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#59" class="md-nav__link">
+    <span class="md-ellipsis">
+      59
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#60" class="md-nav__link">
+    <span class="md-ellipsis">
+      60
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      61
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      62
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      63
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      周10-Ⅱ:代价几何
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="周10-Ⅱ:代价几何">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#64" class="md-nav__link">
+    <span class="md-ellipsis">
+      64
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65" class="md-nav__link">
+    <span class="md-ellipsis">
+      65
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66" class="md-nav__link">
+    <span class="md-ellipsis">
+      66
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#67" class="md-nav__link">
+    <span class="md-ellipsis">
+      67
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#68" class="md-nav__link">
+    <span class="md-ellipsis">
+      68
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#69" class="md-nav__link">
+    <span class="md-ellipsis">
+      69
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#70" class="md-nav__link">
+    <span class="md-ellipsis">
+      70
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-iii" class="md-nav__link">
+    <span class="md-ellipsis">
+      周11-Ⅲ：站在他人的角度考虑问题
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="周11-Ⅲ：站在他人的角度考虑问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      71
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      72
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      73
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74" class="md-nav__link">
+    <span class="md-ellipsis">
+      74
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75" class="md-nav__link">
+    <span class="md-ellipsis">
+      75
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#76" class="md-nav__link">
+    <span class="md-ellipsis">
+      76
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#77" class="md-nav__link">
+    <span class="md-ellipsis">
+      77
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-iv" class="md-nav__link">
+    <span class="md-ellipsis">
+      周12-Ⅳ：轻巧地撤退
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="周12-Ⅳ：轻巧地撤退">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#78" class="md-nav__link">
+    <span class="md-ellipsis">
+      78
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#79" class="md-nav__link">
+    <span class="md-ellipsis">
+      79
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#80" class="md-nav__link">
+    <span class="md-ellipsis">
+      80
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      81
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82" class="md-nav__link">
+    <span class="md-ellipsis">
+      82
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      83
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84" class="md-nav__link">
+    <span class="md-ellipsis">
+      84
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="1-three"><strong>1-THREE</strong></h1>
+<h2 id="9-i"><strong>周9-Ⅰ：学着淡然处之</strong></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">始</label><label for="__tabbed_1_2">谈话录 2.19.12b-13</label><label for="__tabbed_1_3">沉思录 8.56</label><label for="__tabbed_1_4">道德书简 92.16</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>有的人终其一生追逐好东西：健康、财富、享乐、成功。有的人用同样的精力试着避开坏事：疾病、贫穷、痛苦。这两种事物看似截然相反，但殊途同归。斯多葛学派哲学家不断提醒自己，我们追求和躲避的很多东西，都不在自己的控制范围之内。他们不追求不可能之事，无论是追求还是躲避，同样都努力做好准备，同样都能随遇而安。他们练习淡然处之。淡然，是强大的力量，学好这个技能，能让自己非常强大。</strong></p>
+</div>
+<div class="tabbed-block">
+<p>人间万物，有好有坏，还有些则一般般。好为美德，人人皆分享；坏为恶习，人人皆放任；一般般则居其中，包含财富、健康、生活、死亡、享乐和痛苦。</p>
+</div>
+<div class="tabbed-block">
+<p>我的理性选择之于邻居的理性选择，就像之于他的呼吸和身体一样，是无关紧要的。无论为相处付出了多少，我们每个人的主导理性都是做好自己的事。如果不这样，别人身上的邪恶就会成为我的伤害，而上帝并不想让别人来控制我的不幸。</p>
+</div>
+<div class="tabbed-block">
+<p>生活中，有些东西有好处，有些有坏处，而这两者都不是我们能控制的。</p>
+</div>
+</div>
+</div>
+<h3 id="57">57</h3>
+<ul>
+<li><strong>别人好不好，我为什么要关心呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="58">58</h3>
+<ul>
+<li><strong>如何培养对不重要之事淡然处之的态度？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="59">59</h3>
+<ul>
+<li><strong>我稍停下来，冷静一下，会怎样呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="60">60</h3>
+<ul>
+<li><strong>别人认为理所当然之事，我多久质疑一下呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="61">61</h3>
+<ul>
+<li><strong>我对自己的理解和评价对吗？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="62">62</h3>
+<ul>
+<li><strong>我是与哲学家一道，还是与乌合之众为伍？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="63">63</h3>
+<ul>
+<li><strong>我有多少限制其实是自己强加的？</strong></li>
+<li>載入中...</li>
+</ul>
+<h2 id="10-ii"><strong>周10-Ⅱ:代价几何</strong></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">始</label><label for="__tabbed_2_2">道德书简 42.6</label><label for="__tabbed_2_3">指南 28</label><label for="__tabbed_2_4">名哲言行录 6.2.35b</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>在犬儒学派看来，斯多葛学派学者践行强大的练习，即把注意力集中在真正值得（axia）的事物上。一件商品的价格，不只包含其成本，还有购买的人为此付出的代价。人们对物质商品的渴求，代价深重，既有焦虑，也有失掉的安宁，即便得到，也往往令人更为焦虑，鲜有安宁。本周，花些时间反思你为购买的商品实际付出的成本。看看它们是否值得你的付出。</strong></p>
+</div>
+<div class="tabbed-block">
+<p>所以，关于我们追求的以及为之积极努力的东西，我们欠缺这种考虑：要么这些东西没什么用，要么多数用不到。有些是不必要的，而有些根本不值那么多。但我们领悟不到这点，还把它们看成是免费的，其实非常昂贵。</p>
+</div>
+<div class="tabbed-block">
+<p>如果一个人把你的身体出卖给某个过客，你会暴跳如雷。然而，你却把自己的心灵交给随意一个泛泛之交，他们可以随意对待你，令你的心灵扰乱、困惑，你不觉得那样很可耻吗？</p>
+</div>
+<div class="tabbed-block">
+<p>锡诺普的第欧根尼说，我们把价值连城的东西卖得一文不值，反之亦然。</p>
+</div>
+</div>
+</div>
+<h3 id="64">64</h3>
+<ul>
+<li><strong>我那么努力想得到的东西，真的需要吗？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="65">65</h3>
+<ul>
+<li><strong>我都在什么时候大嘴巴？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="66">66</h3>
+<ul>
+<li><strong>对自己的看法，我可否验证后再相信呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="67">67</h3>
+<ul>
+<li><strong>我是否爱惜自己的时间和注意力呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="68">68</h3>
+<ul>
+<li><strong>我的社交圈让自己越来越好还是越来越差？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="69">69</h3>
+<ul>
+<li><strong>谁是我的行为榜样？为什么？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="70">70</h3>
+<ul>
+<li><strong>我拿自由换取了什么？我能把自由拿回来吗？</strong></li>
+<li>載入中...</li>
+</ul>
+<h2 id="11-iii"><strong>周11-Ⅲ：站在他人的角度考虑问题</strong></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">始</label><label for="__tabbed_3_2">沉思录 7.26</label><label for="__tabbed_3_3">沉思录 6.20</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>人们往往把自己的出发点视为善意，对别人的，则视为恶意。然后还奇怪为何生活中有那么多的矛盾！斯多葛学派哲学家甩掉这种习惯，提醒自己，对自己的第一反应要持怀疑态度，而对别人的，则首先要有同理心。位高权重的人，往往对这嗤之以鼻，而马可·奥勒留，这位在位期间地球上权力最大的人，则在与人交往时，以其仁慈著称于世。他告诉自己，要经常花时间想想自己的失误，还要想想别人会怎么看。我们也要像他一样提醒自己，大部分人都很努力，只不过在生活的乱麻中，很容易忽视这些。本周记住，不要只站在自己的角度思考与他人的相处。</strong></p>
+</div>
+<div class="tabbed-block">
+<p>无论何时，若有人对你做了错事，马上想想他/她在做这件事时的善恶观念。因为你一旦理解，就会有同情之心，而非惊诧或气愤。因为你希望自己能有同样的善恶观念，或与之类似的，这样你就会体谅他们的所作所为。即便你不再持同样的观念，你也会很轻易地宽容其过错。</p>
+</div>
+<div class="tabbed-block">
+<p>若你的拳击陪练抓伤了你或用头顶你，不要接着做什么，或用怀疑的眼神看他，又或认为他暗算你。留意就好了，但不是用敌视或怀疑的眼神，而是以健康的心态避开。生活中的一切事，你都应如此。对我们的训练伙伴，很多事都应宽容以待。因为，正如我刚说的，可以在不抱怀疑或悔恨的态度下避开。</p>
+</div>
+</div>
+</div>
+<h3 id="71">71</h3>
+<ul>
+<li><strong>如果我多去看别人善意的一面，会有什么改变呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="72">72</h3>
+<ul>
+<li><strong>与其视作坏运气，何不当作必然发生呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="73">73</h3>
+<ul>
+<li><strong>自大是如何妨碍我学习的？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="74">74</h3>
+<ul>
+<li><strong>如果我完全专注于当下，会怎么样呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="75">75</h3>
+<ul>
+<li><strong>我是否重视上天赋予我的这个内心呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="76">76</h3>
+<ul>
+<li><strong>我的选择明智吗？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="77">77</h3>
+<ul>
+<li><strong>我能排除哪些不好的假设呢？</strong></li>
+<li>載入中...</li>
+</ul>
+<h2 id="12-iv"><strong>周12-Ⅳ：轻巧地撤退</strong></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:4"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><input id="__tabbed_4_4" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">始</label><label for="__tabbed_4_2">沉思录 4.3.1</label><label for="__tabbed_4_3">谈话录 4.4.1-2;15</label><label for="__tabbed_4_4">沉思录 8.48</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>我们总想着未来，如度假、不上班、计划着走进自然时，能找到平静，并从日常生活柴米油盐的琐碎中摆脱出来。然而，事实似乎总不像我们想象的那样，对吧？而且，即便得到了平静，一旦回到“战场”，平静又转瞬即逝。对斯多葛学派哲学家来说，这一切都很蠢。真正的撤退，应朝着自己内心和灵魂的自由，朝着上天已然赋予我们的东西，而这些东西一直都是我们的庇护所。前提是，我们每天都要花时间这样做。</strong></p>
+</div>
+<div class="tabbed-block">
+<p>人们到乡下、海边或是深山，为自己寻觅僻静之地。你也非常渴望那些东西。但那实在是粗俗之人的做法，无论何时，你可以在你内心深处找到一个僻静所在。因为，除了你自己的内心，你找不到比它更宁静、不熙攘的安静之地，尤其是当你细心观察时，内心里满是平和，进而井然有序。经常让自己来这儿安静一会儿，焕发新生。</p>
+</div>
+<div class="tabbed-block">
+<p>记住，不是只有对金钱和地位的渴望，会令你屈服、失了身份，还有对宁静、放松、旅游和学习的渴望。不论外部事物是什么，只要我们重视，就会屈服……内心定格在哪儿，阻碍就在哪儿。</p>
+</div>
+<div class="tabbed-block">
+<p>记住，当你的支配理性集结并相互依赖的时候，它就变得不可征服，因此它不会做任何违背自己意愿的事情，即使它的立场是非理性的。如果它的判断谨慎而理性，还有多少是不可征服的呢？因此，从激情中解放出来的心灵是一座牢不可破的堡垒，一个人没有永远安全的避难所。</p>
+</div>
+</div>
+</div>
+<h3 id="78">78</h3>
+<ul>
+<li><strong>我恼怒的真正起因是什么，是外部事件，还是自己的看法？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="79">79</h3>
+<ul>
+<li><strong>我在培养能忍受逆境的优秀品质吗？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="80">80</h3>
+<ul>
+<li><strong>若我在当下寻求平静而非寄希望于远方，会怎样？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="81">81</h3>
+<ul>
+<li><strong>我是否混淆了上学和受教育的概念？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="82">82</h3>
+<ul>
+<li><strong>我能怎样对待我的贪婪？如何治愈我的弊病？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="83">83</h3>
+<ul>
+<li><strong>在日常事务中，我能学到哪些哲学上的教训？</strong></li>
+<li>載入中...</li>
+</ul>
+<h3 id="84">84</h3>
+<ul>
+<li><strong>减少欲求，我会感觉更富有吗？</strong></li>
+<li>載入中...</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到頂端
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2019-2024 SkyHigh
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener" title="youtu.be" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.487 14.887c.39 0 .706.314.706.7a.703.703 0 0 1-.706.7H5.632a.703.703 0 0 1-.707-.7c0-.386.317-.7.707-.7zm.69-2.593c.39 0 .706.315.706.7a.703.703 0 0 1-.707.7H5.648a.703.703 0 0 1-.706-.7c0-.386.316-.7.706-.7zm3.864-3.46a2.109 2.109 0 0 1 2.118-2.099 2.109 2.109 0 0 1 2.118 2.1 2.115 2.115 0 0 1-2.118 2.103 2.116 2.116 0 0 1-2.118-2.104Zm6.259 6.559c.1.619-.378 1.18-1.005 1.178h-6.272a1.016 1.016 0 0 1-1.005-1.178c.315-1.942 1.391-3.509 2.796-4.13a2.768 2.768 0 0 0 2.69 0c1.405.621 2.482 2.19 2.796 4.13zm-8.712-4.29c-8.38 0-.147-.002-4.941-.002a.703.703 0 0 1-.707-.7c0-.386.317-.7.707-.7l4.941.001c.39 0 .707.314.706.701a.702.702 0 0 1-.706.7zm-4.94-2.594a.702.702 0 0 1-.707-.7c0-.386.317-.7.707-.7h4.94c.389 0 .705.313.705.7a.703.703 0 0 1-.706.699zm7.809 10.117a.658.658 0 0 0 .66-.654h7.06v-12.6H2.824v12.599h7.059c0 .361.295.654.66.654zM24 17.972v.957c0 .605-.496 1.096-1.106 1.096H1.106c-.61 0-1.106-.49-1.106-1.096v-.957h1.413V5.357c0-.763.623-1.382 1.394-1.382h18.387c.77 0 1.394.619 1.394 1.382v12.615Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "toc.follow", "search.highlight", "search.suggest", "search.share", "announce.dismiss", "content.code.copy", "navigation.instant.progress", "navigation.prune"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u8907\u88fd", "clipboard.copy": "\u8907\u88fd", "search.result.more.one": "\u6b64\u9801\u5c1a\u6709 1 \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.more.other": "\u6b64\u9801\u5c1a\u6709 # \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.none": "\u6c92\u6709\u7b26\u5408\u7684\u9805\u76ee", "search.result.one": "\u627e\u5230 1 \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.other": "\u627e\u5230 # \u500b\u7b26\u5408\u7684\u9805\u76ee", "search.result.placeholder": "\u6253\u5b57\u9032\u884c\u641c\u5c0b", "search.result.term.missing": "\u7f3a\u5c11\u5b57\u8a5e", "select.version": "\u9078\u64c7\u7248\u672c"}}</script>
+    
+    
+  <!-- Add scripts that need to run before here -->
+  
+      <script src="../../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.css"
+    />
+    <div id="sakana-widget"></div>
+
+
+    <script>
+        function initSakanaWidget() {
+            var path = window.location.pathname;
+            var excludedPathPrefixes = ['/nya', '/proj', '/blog'];
+            if (excludedPathPrefixes.some(prefix => path.startsWith(prefix))) {
+                return; // Don't show the widget on these paths
+            }
+            const chisato = SakanaWidget.getCharacter('chisato');
+            chisato.initialState = {
+                ...chisato.initialState,
+                i: 0.002,
+                d: 0.998,
+            };
+            chisato.image = `https://mypic.skyhigh.moe/aMyPicURL/other/sky-xxmcry.gif`;
+            SakanaWidget.registerCharacter('chisato-slow', chisato);
+            new SakanaWidget({ character: 'chisato-slow' }).mount('#sakana-widget');
+        }
+    </script>
+
+    <script
+    async
+    onload="initSakanaWidget()"
+    src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"
+    >
+    </script>
+    
+
+
+
+
+
+
+
+  </body>
+</html>
