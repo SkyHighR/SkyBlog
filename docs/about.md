@@ -25,7 +25,7 @@ hide:
     ---
     - [Github  :simple-github:](https://github.com/SkyHighR){ .md-button }
     - [Twitter  :simple-twitter:](https://twitter.com/moeSkyHigh){ .md-button }
-    - [Telegram  :simple-telegram:](https://t.me/moeSkyHigh){ .md-button }
+    - [Telegram  :simple-telegram:](https://t.me/CatAzunyan){ .md-button }
     
 </div>
 
