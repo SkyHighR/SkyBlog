@@ -9,6 +9,18 @@ hide:
 
 ---
 
+## **:material-update:最近更新**
+
+<div class="grid" markdown>
+
+[**2024-春**.时间线 :material-message-draw:](./nya/24-1.md)
+{ .card }
+
+[**2024-夏**.时间线 :material-message-draw:](./nya/24-2.md)
+{ .card }
+
+</div>
+
 ## **:material-power-socket-jp:要要要看哪里呐**
 
 <div class="grid" markdown>
@@ -24,20 +36,6 @@ hide:
 
 :simple-bookmyshow: [**About 关于** :关于这个奇怪的人](./about.md)
 { .card }
-
-
-</div>
-
-## **:material-update:最近更新**
-
-<div class="grid" markdown>
-
-[**2024-春**.时间线 :material-message-draw:](./nya/24-1.md)
-{ .card }
-
-[**2024-夏**.时间线 :material-message-draw:](./nya/24-2.md)
-{ .card }
-
 
 
 </div>

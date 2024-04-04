@@ -7,12 +7,11 @@ slug: TimeToLove-October
 authors:
   - skyhigh
 categories:
-- 音乐
+  - 音乐
 ---
 
 # **Time to Love**
 
-**Time to Love**  
 **时光爱人**  
 
 <!-- uptoc -->
