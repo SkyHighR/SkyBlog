@@ -25,7 +25,7 @@ extra:
   homepage: https://skyhigh.moe
   social:
     - icon: simple/codementor
-      link: https://mypic.skyhigh.moe/v/nana.mp4
+      link: https://mypic.skyhigh.moe/picv/nana.mp4
 
 theme:
   name: material
@@ -73,7 +73,7 @@ theme:
 plugins:
   - git-revision-date-localized:
       type: custom
-      custom_format: "%p %I:%M %a %d %b %Y"
+      custom_format: "%H:%M %a %d %b %Y"
       timezone: Asia/Shanghai
       exclude:
         - blog/*

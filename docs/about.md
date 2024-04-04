@@ -34,6 +34,6 @@ hide:
 -   :fontawesome-solid-cat:{ .lg .middle } **这是Nachoneko,没什么,我只是想让你看一下Ta很可爱:material-sleep:**
 
     ---
-    ![002](https://mypic.skyhigh.moe/aMyPicURL/nachoneko/nachoneko002.jpg)
+    ![002](https://mypic.skyhigh.moe/pic/showuse/nachoneko002.jpg)
     
 </div>
