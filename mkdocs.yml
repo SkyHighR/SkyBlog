@@ -9,10 +9,8 @@ nav:
       - Outlook:
           - nya/stoic.md
       - TimeLine:
-          - nya/24-1.md
-          - nya/24-2.md
-          - nya/24-3.md
-          - nya/24-4.md
+          - nya/24-a.md
+          - nya/24-b.md
   - Project:
       - proj/index.md
 

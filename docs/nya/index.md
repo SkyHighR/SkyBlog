@@ -29,8 +29,7 @@ hide:
     ---
 
     - **时间线点击下面的季度或者左边的导航来查看,结束后会锁定评论区**
-    - **2024年：**[春](./24-1.md){ .md-button } [夏](./24-2.md){ .md-button } [秋](./24-3.md){ .md-button } [冬](./24-4.md){ .md-button }
-
+    - **2024年：**[Side-A](./24-a.md){ .md-button } [Side-B](./24-b.md){ .md-button }
 </div>
 
 ---
