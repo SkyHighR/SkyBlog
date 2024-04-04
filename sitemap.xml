@@ -21,27 +21,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://skyhigh.moe/blog/2024/03/11/TimeToLove-October/</loc>
+         <lastmod>2024-04-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://skyhigh.moe/nya/</loc>
          <lastmod>2024-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyhigh.moe/nya/24-1/</loc>
+         <loc>https://skyhigh.moe/nya/24-a/</loc>
          <lastmod>2024-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyhigh.moe/nya/24-2/</loc>
-         <lastmod>2024-04-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyhigh.moe/nya/24-3/</loc>
-         <lastmod>2024-04-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyhigh.moe/nya/24-4/</loc>
+         <loc>https://skyhigh.moe/nya/24-b/</loc>
          <lastmod>2024-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -137,6 +132,11 @@
     </url>
     <url>
          <loc>https://skyhigh.moe/blog/archive/2024/</loc>
+         <lastmod>2024-04-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://skyhigh.moe/blog/category/%E9%9F%B3%E4%B9%90/</loc>
          <lastmod>2024-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
