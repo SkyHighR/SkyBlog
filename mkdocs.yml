@@ -87,7 +87,7 @@ plugins:
       enabled: true
       blog_toc: true
       post_readtime: true
-      post_readtime_words_per_minute: 321
+      post_readtime_words_per_minute: 200
       post_excerpt: optional
       post_excerpt_separator: <!-- uptoc -->
       pagination: true

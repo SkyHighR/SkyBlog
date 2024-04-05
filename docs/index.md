@@ -13,7 +13,12 @@ hide:
 
 <div class="grid" markdown>
 
-[**2024 Side-A**.时间线 :material-message-draw:](./nya/24-a.md)
+[**2024 Side-A**.时间线 :material-message-draw:](./nya/24-a)
+{ .card }
+
+
+
+[**简单玩卡的几年**.博客 :fontawesome-solid-blog:](./blog/4ycard)
 { .card }
 
 
