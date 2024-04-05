@@ -30,4 +30,4 @@ jobs:
           mkdocs-material \
           mkdocs-git-revision-date-localized-plugin \
           mkdocs-minify-plugin
-      - run: mkdocs gh-deploy --force -c -m
+      - run: mkdocs gh-deploy --force -c
