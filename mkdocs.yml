@@ -29,9 +29,6 @@ extra:
 theme:
   name: material
   custom_dir: overrides
-  font:
-    text: Noto Sans SC
-    code: Noto Sans SC
   favicon: img/favicon.ico
   logo: img/l.svg
   language: zh-TW
