@@ -13,11 +13,9 @@ hide:
 
 <div class="grid" markdown>
 
-[**2024-春**.时间线 :material-message-draw:](./nya/24-1.md)
+[**2024 Side-A**.时间线 :material-message-draw:](./nya/24-a.md)
 { .card }
 
-[**2024-夏**.时间线 :material-message-draw:](./nya/24-2.md)
-{ .card }
 
 </div>
 
@@ -25,16 +23,16 @@ hide:
 
 <div class="grid" markdown>
 
-:fontawesome-solid-blog: [**Blog 博客** :长文发表处](./blog/index.md)
-{ .card }
-
 :material-message-draw: [**TimeLine 时间线** :一些想说的话](./nya/index.md)
 { .card }
 
-:simple-writedotas: [**Project 项目** :奇怪的的项目](./proj/index.md)
+:fontawesome-solid-blog: [**Blogg 博客** :长文记录发表处等](./blog/index.md)
 { .card }
 
-:simple-bookmyshow: [**About 关于** :关于这个奇怪的人](./about.md)
+:simple-writedotas: [**Project 项目** :奇怪的一些项目](./proj/index.md)
+{ .card }
+
+:simple-bookmyshow: [**About 关于** :奇怪的SkyHigh](./about.md)
 { .card }
 
 

@@ -8,7 +8,6 @@ authors:
   - skyhigh
 categories:
   - 学习
-  - 分享
   - 日常
   - 自我
   - 年度
