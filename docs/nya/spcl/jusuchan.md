@@ -76,4 +76,4 @@ sorry
 [^2]: 涛真是有够-孤独的呢。(笑。
 [^3]: 嗯，对大概就是50-60样子吧，因为一些原因，高中腰一椎骨折过，实际上还行，但影响神经的原因，虽然看上去现在还算正常，但这是医生告诉咱这是扣血条上限的不可逆的损失＞︿＜。
 [^4]: 其实这个已是习惯。
-[^520]: [**修改记录**](https://github.com/SkyHighR/SkyHighR.GitHub.io/commits/skymain/docs/nya/spcl/jusuchan.md)
+[^520]: [**修改记录**](https://github.com/SkyHighR/SkyBlog/commits/skymain/docs/nya/spcl/jusuchan.md)
