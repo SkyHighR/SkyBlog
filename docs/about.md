@@ -1,10 +1,8 @@
 ---
 comments: true
-hide:
-    - toc
 ---
 
-# **ABOUT**
+# **关于SkyHigh**
 
 <div class="grid cards" markdown>
 

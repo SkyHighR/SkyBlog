@@ -1,11 +1,8 @@
 ---
 status: new
-comments: true
-hide:
-    - toc
 ---
 
-# **欢迎\いらっしゃいませ/Welcome**
+# **嗨!这里是SkyHigh,很高兴认识你**
 
 ---
 

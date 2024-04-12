@@ -1,5 +1,5 @@
 nav:
-  - MainPage:
+  - Index:
       - index.md
       - about.md
       - chronicle.md
