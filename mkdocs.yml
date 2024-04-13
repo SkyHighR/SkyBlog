@@ -94,8 +94,6 @@ plugins:
       post_url_format: "{slug}"
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
-  - minify:
-      minify_html: true
 
 markdown_extensions:
   - admonition
