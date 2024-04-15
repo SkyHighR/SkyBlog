@@ -21,8 +21,10 @@ comments: true
     - skyhigh.moe
     - skyhi.top
 
+    skyhigh.moe是现任主力域名哩，匹配咱的名字，会一直续费下去的。而skyhi.top用于备用。
+
+
 ## v0.x(24年1月)
-skyhigh.moe是现任主力域名哩，匹配咱的名字，会一直续费下去的。而skyhi.top用于备用。  
 
 刚开始仍然尝试用WordPress，发现迁移，维护，还有数据等问题比较麻烦，随后转向静态博客，尝试过hexo和hugo，发现不太适合咱这种多板块不仅仅是Blog的结构，自建又太麻烦，后来有使用过Wiki.js，最后发现MKdocs才是归宿，而Material For MkDocs主题正和咱的口味，还有Blog等功能，简直一举两得，所以咱个人网页就决定是Mkdocs了。
 
