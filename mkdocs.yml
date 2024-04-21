@@ -31,6 +31,9 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   logo: img/l.svg
+  font:
+    text: "Noto Sans SC"
+    code: "Noto Sans SC"
   language: zh-TW
   features:
     - navigation.tracking

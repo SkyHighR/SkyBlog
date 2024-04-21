@@ -27,7 +27,7 @@ categories:
 
 ## 开始修改
 
-### 1.准备工作
+### 1.准备
 
 - 装了git的用户请掠过这行，没装的点[**这里**](https://git-scm.com/download/win)下载安装一下。
 - 下面是修改后的代码，复制过去新建一个`index.sh`文档（用那个啥记事本新建一个粘贴进去再命名为`index.sh`就行）。
@@ -146,5 +146,29 @@ categories:
     ```
 
 
+### 2.启动
 
-### 2.
+- 在你创建的`index.sh`同目录下准备好你要提交的文件（脚本会把同目录下除了`index.sh`的所有文件都提交上去）。然后在该目录打开Git Bash，输入`sh index.sh`或`./index.sh`运行脚本。
+
+- 脚本可选SSH或HTTPS链接到仓库，推荐使用SSH（如果你之前配置好了的话），没配置的话就用HTTPS也是一样的，不过也得先创建GitHub令牌。[**点此创建**](https://github.com/settings/tokens/new)，并且记得勾选上repo的权限哦。
+
+- 获取到仓库后根据脚本提示即可完成。
+    * [x] 输入日期，格式为YYYY-MM-DD，例：1999-01-01
+    * [x] 输入时间，格式为HH:MM:SS，例：11:22:33
+    * [x] 最后输入提交信息和分支名就大功告成啦
+
+## FAQ
+
+- 1.时间最远可以设置到哪里  
+UNIX时间戳的 0 ，1970-01-01T00:00:00。也就是1970年1月1日0时0分0秒。
+
+- 2.为啥个人页面上看到的最远到1969年  
+时区问题，脚本默认使用UTC时间。
+
+## 原理
+
+其实官方文档里说的很明白了，主要参考这里的最后两篇：[管理个人资料中的贡献设置](https://docs.github.com/zh/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile)  
+
+Git提交时有两个日期，分别是`CommitDate`和`AuthorDate`，仓库用的是`CommitDate`，个人主页界面用的是`AuthorDate`，默认提交时这两个都是一样的当前日期，咱同时修改他们即可。
+
+

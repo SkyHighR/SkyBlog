@@ -13,7 +13,8 @@ status: new
 [**2024 Side-A**.时间线 :material-message-draw:](./nya/24-a)
 { .card }
 
-
+[**GitHub时光机**.博客 :fontawesome-solid-blog:](./blog/githubold)
+{ .card }
 
 [**简单玩卡的几年**.博客 :fontawesome-solid-blog:](./blog/4ycard)
 { .card }
