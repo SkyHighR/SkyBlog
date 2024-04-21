@@ -43,8 +43,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CNoto+Sans+SC:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"Noto Sans SC"}</style>
       
     
     
@@ -919,7 +919,7 @@
           <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      1.准备工作
+      1.准备
     </span>
   </a>
   
@@ -928,7 +928,7 @@
           <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2.
+      2.启动
     </span>
   </a>
   
@@ -936,6 +936,24 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      原理
+    </span>
+  </a>
   
 </li>
       
@@ -1056,7 +1074,7 @@
 <p>起初是看到了某个人的主页上的提交时间年份记录居然如此长，都长长长到1969年了，让GitHub个人页面多了几分神秘感，就像下面这样。于是一搜就发现了一个专门用于提交这种奇怪日期的脚本，想着其实也就是改改提交日期，就Fork了一份优化了一下脚本玩玩（<a href="https://github.com/SkyHighR/github-oldyear">SkyHighR/github-oldyear</a>）</p>
 <p><img alt="2" src="https://mypic.skyhigh.moe/blog/githubold/2.png" /></p>
 <h2 id="_2">开始修改</h2>
-<h3 id="1">1.准备工作</h3>
+<h3 id="1">1.准备</h3>
 <ul>
 <li>装了git的用户请掠过这行，没装的点<a href="https://git-scm.com/download/win"><strong>这里</strong></a>下载安装一下。</li>
 <li>下面是修改后的代码，复制过去新建一个<code>index.sh</code>文档（用那个啥记事本新建一个粘贴进去再命名为<code>index.sh</code>就行）。</li>
@@ -1274,7 +1292,37 @@
 </span><span id="__span-0-105"><a id="__codelineno-0-105" name="__codelineno-0-105"></a><span class="nb">unset</span><span class="w"> </span>-f<span class="w"> </span>_
 </span></code></pre></div></td></tr></table></div>
 </details>
-<h3 id="2">2.</h3>
+<h3 id="2">2.启动</h3>
+<ul>
+<li>
+<p>在你创建的<code>index.sh</code>同目录下准备好你要提交的文件（脚本会把同目录下除了<code>index.sh</code>的所有文件都提交上去）。然后在该目录打开Git Bash，输入<code>sh index.sh</code>或<code>./index.sh</code>运行脚本。</p>
+</li>
+<li>
+<p>脚本可选SSH或HTTPS链接到仓库，推荐使用SSH（如果你之前配置好了的话），没配置的话就用HTTPS也是一样的，不过也得先创建GitHub令牌。<a href="https://github.com/settings/tokens/new"><strong>点此创建</strong></a>，并且记得勾选上repo的权限哦。</p>
+</li>
+<li>
+<p>获取到仓库后根据脚本提示即可完成。</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> 输入日期，格式为YYYY-MM-DD，例：1999-01-01</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> 输入时间，格式为HH:MM:SS，例：11:22:33</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> 最后输入提交信息和分支名就大功告成啦</li>
+</ul>
+</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<ul>
+<li>
+<p>1.时间最远可以设置到哪里<br />
+UNIX时间戳的 0 ，1970-01-01T00:00:00。也就是1970年1月1日0时0分0秒。</p>
+</li>
+<li>
+<p>2.为啥个人页面上看到的最远到1969年<br />
+时区问题，脚本默认使用UTC时间。</p>
+</li>
+</ul>
+<h2 id="_3">原理</h2>
+<p>其实官方文档里说的很明白了，主要参考这里的最后两篇：<a href="https://docs.github.com/zh/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile">管理个人资料中的贡献设置</a>  </p>
+<p>Git提交时有两个日期，分别是<code>CommitDate</code>和<code>AuthorDate</code>，仓库用的是<code>CommitDate</code>，个人主页界面用的是<code>AuthorDate</code>，默认提交时这两个都是一样的当前日期，咱同时修改他们即可。</p>
 
 
 <!-- taken from 
