@@ -1,6 +1,7 @@
 nav:
   - Index:
       - index.md
+      - bookmark.md
       - about.md
       - chronicle.md
   - Blog:

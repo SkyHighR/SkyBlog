@@ -20,14 +20,29 @@ comments: true
 
 ## 联系方式
 
-<div class="grid cards" markdown>
-
 -   :material-comment-account:{ .lg .middle } __如何找到SkyHigh:material-format-quote-close-outline:__
 
-    ---
-    - [E-Mail  :material-email:](mailto:hi@skyhigh.moe){ .md-button } • [Github  :simple-github:](https://github.com/SkyHighR){ .md-button } • [Twitter  :simple-twitter:](https://twitter.com/moeSkyHigh){ .md-button } • [Telegram  :simple-telegram:](https://t.me/CatAzunyan){ .md-button }
-    
+<div class="grid" markdown>
+
+[**E-Mail** :material-email:](mailto:hi@skyhigh.moe)
+{ .card }
+
+[**GitHub** :simple-github:](https://github.com/SkyHighR)
+{ .card }
+
+[**Twitter** :simple-twitter:](https://twitter.com/moeSkyHigh)
+{ .card }
+
+[**Telegram** :simple-telegram:](https://t.me/CatAzunyan)
+{ .card }
+
+
 </div>
+
+
+
+## 喵喵喵
+
 
 <div class="grid cards" markdown>
 
