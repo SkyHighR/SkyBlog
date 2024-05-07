@@ -86,3 +86,6 @@ comments: true
     ![002](https://mypic.skyhigh.moe/pic/showuse/nachoneko002.jpg)
     
 </div>
+
+
+[^1]: breezy意为微风的，微风是咱喜欢的人的名。
