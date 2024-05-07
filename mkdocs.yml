@@ -1,8 +1,8 @@
 nav:
   - Index:
       - index.md
-      - bookmark.md
       - about.md
+      - bookmark.md
   - Blog:
       - blog/index.md
   - SkyHigh:

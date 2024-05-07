@@ -4,25 +4,26 @@ hide:
   - toc
 ---
 
-# **书签收藏夹**
-
-:material-web:{ .lg .middle } **有趣的网站:material-format-quote-close-outline:**
+# **个人书签收藏**
 
 <div class="grid" markdown>
 
-[同出口和网段的ip在BT上下了啥](https://iknowwhatyoudownload.com/)
+[简历制作](https://rxresu.me/)
 { .card }
 
-[我的世界第一版](https://classic.minecraft.net/)
+[同网段的ip下了啥BT](https://iknowwhatyoudownload.com/)
+{ .card }
+
+[我的世界Classic 0.0.23a_01](https://classic.minecraft.net/)
 { .card }
 
 [Web Check](https://web-check.xyz/)
 { .card }
 
-[网络面板](https://net.ljxnet.cn/)
+[网络面板/流量杀手](https://net.ljxnet.cn/)
 { .card }
 
-[MyIP](https://ipcheck.ing/)
+[IP 信息](https://ipcheck.ing/)
 { .card }
 
 [CockMail](https://cock.li)
