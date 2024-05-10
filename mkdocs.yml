@@ -14,6 +14,7 @@ nav:
           - nya/24-b.md
   - Project:
       - proj/index.md
+      - proj/kon.md
 
 site_name: SkyHigh
 site_author: SkyHigh
