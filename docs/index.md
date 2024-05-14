@@ -13,6 +13,9 @@ status: new
 [**2024 Side-A**.时间线 :material-message-draw:](./nya/24-a)
 { .card }
 
+[**手机卡办卡人员行骗记录**.博客 :fontawesome-solid-blog:](./blog/cnsimcard)
+{ .card }
+
 [**GitHub时光机**.博客 :fontawesome-solid-blog:](./blog/githubold)
 { .card }
 
