@@ -64,7 +64,7 @@ comments: true
 ??? success "前世"
     - skybreezy.com
 
-    第二任域名，20年注册仍存活，有着一些特殊含义[^1]。  
+    第二任域名，于24年5月主动放弃所有权，但在我心中仍有着一些特殊含义[^1]。  
     这也是咱博客生涯的开始，用的也是WordPress，不过后来因为一些原因数据丢失了，不过在[web.archive.org](https://web.archive.org/web/20211201052953/https://www.skybreezy.com/)上还可以看到当时发布的几篇博客。
 
 ???+ tip "目前"
