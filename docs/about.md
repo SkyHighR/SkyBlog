@@ -15,7 +15,7 @@ comments: true
     - 莫名其妙|稀奇古怪的离谱|甚至危险|**不会说话,不会生气,不会在乎**|<del>无生死</del>
     <!--已经合格了,已经可以进去了|我就是萝莉控,萝莉控怎么你啦,Hentai+xp大小&#x221E-->
     - 喜欢轻音少女,爱吃山楂和酸的东西,听音乐,喜欢狗狗与猫猫|にゃ???汪汪~~嗷呜----(ｵﾔｽﾐ💤
-    - 游戏：BoomBeach,Minecraft,BlueArchive,Solitaire,StardewValley,GalGames
+    - 游戏:BoomBeach,Minecraft,BlueArchive,Solitaire,StardewValley.GalGames
 
 </div>
 
