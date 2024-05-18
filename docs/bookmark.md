@@ -1,105 +1,116 @@
 ---
 comments: true
-hide:
-  - toc
 ---
 
 # **个人书签收藏**
 
-## 工具
+## **:material-bug-check:Sky**
 
-<div class="grid" markdown>
+[SkyBox](https://box.skyhigh.moe/)
+:material-bug-check:
+[Totp](https://totp.skyhigh.moe/)
+:material-bug-check:
+[NachoMaker](https://nacho.skyhigh.moe/)
+:material-bug-check:
 
-[简历制作](https://rxresu.me/)
-{ .card }
+## **:simple-myanimelist:**ACGN
 
-[同网段的ip下了啥BT](https://iknowwhatyoudownload.com/)
-{ .card }
+[天使动漫](https://www.tsdm39.com/)
+:simple-myanimelist:
+[Exhentai](https://exhentai.org)
+:simple-myanimelist:
+[Kox.moe](https://mox.moe/)
+:simple-myanimelist:
+[Nyaa](https://nyaa.si)
+:simple-myanimelist:
+[Mikan](https://mikanani.me)
+:simple-myanimelist:
+[Vcb-s](https://vcb-s.com)
+:simple-myanimelist:
+[动漫花园](https://share.dmhy.org)
+:simple-myanimelist:
+[去看吧](https://k6dm.com)
+:simple-myanimelist:
 
-[我的世界Classic 0.0.23a_01](https://classic.minecraft.net/)
-{ .card }
+
+## **:simple-fandom:**娱乐
+
+[V2EX](https://www.v2ex.com/)
+:simple-fandom:
+[里屋](https://www.253874.net)
+:simple-fandom:
+[低端影视](https://ddys.one/)
+:simple-fandom:
+[BoomBeachUpdate](https://supercell.com/en/games/boombeach/blog/)
+:simple-fandom:
+[BoomBeachWiki](https://boombeach.fandom.com/)
+:simple-fandom:
+[BlueArchiveWiki](https://www.gamekee.com/ba/)
+:simple-fandom:
+
+## **:material-tools:**工具
 
 [Web Check](https://web-check.xyz/)
-{ .card }
-
+:material-tools:
 [网络面板/流量杀手](https://net.ljxnet.cn/)
-{ .card }
-
+:material-tools:
 [IP 信息](https://ipcheck.ing/)
-{ .card }
-
-[CockMail](https://cock.li)
-{ .card }
-
-[Exhentai](https://exhentai.org)
-{ .card }
-
-[低端影视](https://ddys.one/)
-{ .card }
-
-[去看吧](https://k6dm.com)
-{ .card }
-
+:material-tools:
+[简历制作](https://rxresu.me/)
+:material-tools:
+[AppStore查询](https://applecensorship.com)
+:material-tools:
+[腾讯帮小忙](https://tool.browser.qq.com/)
+:material-tools:
+[MikuTools](https://tools.miku.ac)
+:material-tools:
 [打字练习](https://dazidazi.com)
-{ .card }
+:material-tools:
 
-[Z-Library](https://singlelogin.se)
-{ .card }
+## **:material-star-shooting:**有趣
 
-[Anna'Archive](https://zh.annas-archive.org)
-{ .card }
+[同网段的ip下了啥BT](https://iknowwhatyoudownload.com/)
+:material-star-shooting:
+[MineCraftClassic](https://classic.minecraft.net/)
+:material-star-shooting:
+[垃圾文件生成器](http://www.xnet.se/fd/)
+:material-star-shooting:
+[元素周期表](https://ptable.com/)
+:material-star-shooting:
+[信任危机游戏](https://dccxi.com/trust/)
+:material-star-shooting:
+[眼睛的幻觉](https://michaelbach.de/ot/index.html)
+:material-star-shooting:
+[10万星系](https://stars.chromeexperiments.com/)
+:material-star-shooting:
+[随机炫酷网站](https://sharkle.com/)
+:material-star-shooting:
 
-[中国珍宝馆](https://www.ltfc.net)
-{ .card }
 
-[漢川草廬](http://www.xn--5rtnx620bw5s.tw)
-{ .card }
-
-[Rutracker](https://rutracker.org)
-{ .card }
-
-[Nyaa](https://nyaa.si)
-{ .card }
-
-[423Down](https://www.423down.com)
-{ .card }
-
-[果核剥壳](https://www.ghxi.com)
-{ .card }
-
-[Mikan](https://mikanani.me)
-{ .card }
-
-[Vcb-s](https://vcb-s.com)
-{ .card }
-
-[动漫花园](https://share.dmhy.org)
-{ .card }
+## **:material-multimedia:**媒体
 
 [Wallhere](https://wallhere.com)
-{ .card }
-
+:material-multimedia:
 [Wallhaven](https://wallhaven.cc)
-{ .card }
-
+:material-multimedia:
 [Anime-pic](https://anime-pictures.net)
-{ .card }
+:material-multimedia:
+[Z-Library](https://singlelogin.se)
+:material-multimedia:
+[Anna'Archive](https://zh.annas-archive.org)
+:material-multimedia:
+[Rutracker](https://rutracker.org)
+:material-multimedia:
 
-[AppStore查询](https://applecensorship.com)
-{ .card }
+## **:material-server-security:**服务
 
-[腾讯帮小忙](https://tool.browser.qq.com/)
-{ .card }
-
-[MikuTools](https://tools.miku.ac)
-{ .card }
-
-[全球FM](https://tingfm.com)
-{ .card }
-
+[423Down](https://www.423down.com)
+:material-server-security:
+[果核剥壳](https://www.ghxi.com)
+:material-server-security:
+[CockMail](https://cock.li)
+:material-server-security:
 [默沙东手册](https://www.msdmanuals.cn)
-{ .card }
-
-
-
-</div>
+:material-server-security:
+[全球FM](https://tingfm.com)
+:material-server-security:
