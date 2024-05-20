@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://skyhigh.moe/blog/2024uplist/</loc>
-         <lastmod>2024-05-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://skyhigh.moe/blog/4ycard/</loc>
          <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
@@ -162,16 +157,6 @@
     </url>
     <url>
          <loc>https://skyhigh.moe/blog/category/%E6%97%A0%E8%81%8A/</loc>
-         <lastmod>2024-05-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyhigh.moe/blog/category/%E8%87%AA%E6%88%91/</loc>
-         <lastmod>2024-05-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://skyhigh.moe/blog/category/%E5%B9%B4%E5%BA%A6/</loc>
          <lastmod>2024-05-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
