@@ -4,33 +4,33 @@ comments: true
 
 # **个人书签收藏**
 
-## **:material-bug-check:Sky**
+## **:material-pen:Sky**
 
 [SkyBox](https://box.skyhigh.moe/){target="_blank"}
-:material-bug-check:
+:material-pen:
 [Totp](https://totp.skyhigh.moe/){target="_blank"}
-:material-bug-check:
+:material-pen:
 [NachoMaker](https://nacho.skyhigh.moe/){target="_blank"}
-:material-bug-check:
+:material-pen:
 
-## **:simple-myanimelist:**ACGN
+## **:material-disc-player:**ACGN
 
 [天使动漫](https://www.tsdm39.com/){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [Exhentai](https://exhentai.org){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [Kox.moe](https://mox.moe/){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [Nyaa](https://nyaa.si){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [Mikan](https://mikanani.me){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [Vcb-s](https://vcb-s.com){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [动漫花园](https://share.dmhy.org){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 [去看吧](https://k6dm.com){target="_blank"}
-:simple-myanimelist:
+:material-disc-player:
 
 
 ## **:simple-fandom:**娱乐

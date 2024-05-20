@@ -19,17 +19,15 @@ hide:
 
 ---
 
-- **Outlook:Null**
-
-
 <div class="grid cards" markdown>
 
 -   :material-message-draw:{ .lg .middle } __All-List:material-format-quote-close-outline:__
 
     ---
 
-    - **时间线点击下面的季度或者左边的导航来查看,结束后会锁定评论区**
-    - **2024年：**[Side-A](./24-a.md){ .md-button } [Side-B](./24-b.md){ .md-button }
+    - **时间线点击下面的季度或者左边的导航来查看**
+    - **2024年：**[Side-A](./24-a.md)
+    - **2024年：**[Side-B](./24-b.md)
 </div>
 
 ---
