@@ -71,13 +71,6 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - git-revision-date-localized:
-      type: custom
-      custom_format: "%H:%M %a %d %b %Y"
-      timezone: Asia/Shanghai
-      exclude:
-        - blog/*
-      enable_creation_date: true
   - search:
       lang:
         - zh
