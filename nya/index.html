@@ -909,67 +909,51 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 
   <h2 id="__comments">留言</h2>
   <!-- Insert generated snippet here -->
-  <script>
-    document$.subscribe(function() {
-    console.log("Loading Giscus...");
-
-    // 创建一个新的script元素
-    var script = document.createElement('script');
-    
-    // 设置script元素的属性
-    script.src = "https://giscus.app/client.js";
-    script.setAttribute('data-repo', "SkyHighR/SkyBlog");
-    script.setAttribute('data-repo-id', "R_kgDOLBsURw");
-    script.setAttribute('data-category', "SkyHigh.Moe");
-    script.setAttribute('data-category-id', "DIC_kwDOLBsUR84CdeYk");
-    script.setAttribute('data-mapping', "title");
-    script.setAttribute('data-strict', "1");
-    script.setAttribute('data-reactions-enabled', "1");
-    script.setAttribute('data-emit-metadata', "0");
-    script.setAttribute('data-input-position', "top");
-    script.setAttribute('data-theme', "preferred_color_scheme");
-    script.setAttribute('data-lang', "zh-TW");
-    script.setAttribute('crossorigin', "anonymous");
-    script.async = true;
-
-    // 将script元素添加到document的head中，以加载脚本
-    document.head.appendChild(script);
-    });
+  <script src="https://giscus.app/client.js"
+        data-repo="SkyHighR/SkyBlog"
+        data-repo-id="R_kgDOLBsURw"
+        data-category="SkyHigh.Moe"
+        data-category-id="DIC_kwDOLBsUR84CdeYk"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
   </script>
   <!-- Synchronize Giscus theme with palette -->
   <script>
-    var giscus = document.querySelector("script[src*=giscus]")
+    document$.subscribe(function() {
+      var giscus = document.querySelector("script[src*=giscus]");
 
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
+      // Set palette on initial load
+      var palette = __md_get("__palette");
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light";
 
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
+        // Instruct Giscus to set theme
+        giscus.setAttribute("data-theme", theme);
+      }
 
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
+      // Register event handlers
+      var ref = document.querySelector("[data-md-component=palette]");
       ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
+        var palette = __md_get("__palette");
         if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
+          var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light";
 
           // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
+          var frame = document.querySelector(".giscus-frame");
           frame.contentWindow.postMessage(
             { giscus: { setConfig: { theme } } },
             "https://giscus.app"
-          )
+          );
         }
-      })
-    })
+      });
+    });
   </script>
 
                 
