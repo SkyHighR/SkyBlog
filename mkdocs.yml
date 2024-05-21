@@ -50,7 +50,7 @@ theme:
     - search.share
     - announce.dismiss
     - content.code.copy
-    # - navigation.instant
+    - navigation.instant
     - navigation.instant.progress
     - navigation.prune
 
@@ -71,6 +71,7 @@ theme:
         name: Switch to light mode
 
 plugins:
+  - info
   - git-revision-date-localized:
       type: custom
       custom_format: "%H:%M %a %d %b %Y"
