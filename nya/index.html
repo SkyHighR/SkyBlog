@@ -909,47 +909,32 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 
   <h2 id="__comments">留言</h2>
   <!-- Insert generated snippet here -->
-  <script src="https://giscus.app/client.js"
-        data-repo="SkyHighR/SkyBlog"
-        data-repo-id="R_kgDOLBsURw"
-        data-category="SkyHigh.Moe"
-        data-category-id="DIC_kwDOLBsUR84CdeYk"
-        data-mapping="title"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-TW"
-        crossorigin="anonymous"
-        async>
-  </script>
   <script>
-      document$.subscribe(function () {
-          // 确保 DOM 加载完成
-          if (document.readyState !== 'loading') {
-              // 运行 Giscus 代码
-              const script = document.createElement('script');
-              script.src = 'https://giscus.app/client.js';
-              script.async = true;
-              script.setAttribute('data-repo', 'SkyHighR/SkyBlog');
-              script.setAttribute('data-repo-id', 'R_kgDOLBsURw');
-              script.setAttribute('data-category', 'SkyHigh.Moe');
-              script.setAttribute('data-category-id', 'DIC_kwDOLBsUR84CdeYk');
-              script.setAttribute('data-mapping', 'title');
-              script.setAttribute('data-strict', '1');
-              script.setAttribute('data-reactions-enabled', '1');
-              script.setAttribute('data-emit-metadata', '0');
-              script.setAttribute('data-input-position', 'top');
-              script.setAttribute('data-theme', 'preferred_color_scheme');
-              script.setAttribute('data-lang', 'zh-TW');
-              document.body.appendChild(script);
-          } else {
-              document.addEventListener('DOMContentLoaded', function () {
-                  // 在 DOM 加载完成后运行上面的 Giscus 代码
-              });
-          }
-      });
+    document$.subscribe(function() {
+    console.log("Loading Giscus...");
+
+    // 创建一个新的script元素
+    var script = document.createElement('script');
+    
+    // 设置script元素的属性
+    script.src = "https://giscus.app/client.js";
+    script.setAttribute('data-repo', "SkyHighR/SkyBlog");
+    script.setAttribute('data-repo-id', "R_kgDOLBsURw");
+    script.setAttribute('data-category', "SkyHigh.Moe");
+    script.setAttribute('data-category-id', "DIC_kwDOLBsUR84CdeYk");
+    script.setAttribute('data-mapping', "title");
+    script.setAttribute('data-strict', "1");
+    script.setAttribute('data-reactions-enabled', "1");
+    script.setAttribute('data-emit-metadata', "0");
+    script.setAttribute('data-input-position', "top");
+    script.setAttribute('data-theme', "preferred_color_scheme");
+    script.setAttribute('data-lang', "zh-TW");
+    script.setAttribute('crossorigin', "anonymous");
+    script.async = true;
+
+    // 将script元素添加到document的head中，以加载脚本
+    document.head.appendChild(script);
+    });
   </script>
   <!-- Synchronize Giscus theme with palette -->
   <script>
