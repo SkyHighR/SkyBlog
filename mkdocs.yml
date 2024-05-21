@@ -71,7 +71,8 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - info
+  - info:
+      enabled: true
   - git-revision-date-localized:
       type: custom
       custom_format: "%H:%M %a %d %b %Y"
