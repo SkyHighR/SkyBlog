@@ -15,6 +15,9 @@ nav:
   - Project:
       - proj/index.md
       - proj/kon.md
+      - LabourLaw:
+          - proj/LaborLawCN.md
+          - proj/LaborContractLawCN.md
 
 site_name: SkyHigh
 site_author: SkyHigh
