@@ -1,6 +1,5 @@
 ---
 status: new
-comments: true
 hide:
     - toc
 ---
