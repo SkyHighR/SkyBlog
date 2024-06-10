@@ -32,5 +32,3 @@ hide:
 </div>
 
 ---
-
-- 由[Giscus](https://github.com/giscus/giscus)和[GithubDiscussions](https://github.com/SkyHighR/SkyHighR.GitHub.io/discussions)技術支援

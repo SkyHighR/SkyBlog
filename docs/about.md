@@ -25,18 +25,14 @@ comments: true
 
 <div class="grid" markdown>
 
-[**E-Mail** :material-email:](mailto:hi@skyhigh.moe)
+[**E-Mail** :material-email:](mailto:me@skyhigh.moe)
 { .card }
 
 [**GitHub** :simple-github:](https://github.com/SkyHighR)
 { .card }
 
-[**Twitter** :simple-twitter:](https://twitter.com/moeSkyHigh)
+[**Twitter** :fontawesome-brands-x-twitter:](https://x.com/moeSkyHigh)
 { .card }
-
-[**Telegram** :simple-telegram:](https://t.me/CatAzunyan)
-{ .card }
-
 
 </div>
 

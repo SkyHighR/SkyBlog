@@ -28,8 +28,12 @@ repo_name: SkyHigh'Blog
 extra:
   homepage: https://skyhigh.moe
   social:
-    - icon: simple/codementor
-      link: https://mypic.skyhigh.moe/picv/nana.mp4
+    - icon: material/email-multiple
+      link: mailto:<me@skyhigh.moe>
+      name: E-Mail
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/moeSkyHigh
+      name: Twitter
 
 theme:
   name: material
@@ -39,7 +43,7 @@ theme:
   font:
     text: "Noto Sans SC"
     code: "Noto Sans SC"
-  language: zh-TW
+  language: zh
   features:
     - navigation.tracking
     - navigation.tabs

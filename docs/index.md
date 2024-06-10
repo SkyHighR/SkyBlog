@@ -30,8 +30,17 @@ hide:
 
 </div>
 
+
+
+
+
 <br><br><br><br><br><br><br>
-~Index就这！嗯~
+
+**~Index就这！嗯(≧∇≦)ﾉ**
+
+[**别点** :material-star-circle:](https://mypic.skyhigh.moe/picv/nana.mp4){ .md-button }
+
+Here made with [**Material for MkDocs**](https://github.com/squidfunk/mkdocs-material),[**Cloudflare Pages**](https://pages.cloudflare.com/),[**Giscus**](https://github.com/giscus/giscus).
 
 <!--
 - 嗨！此乃SkyHigh，幸會。~(古漢語)~
