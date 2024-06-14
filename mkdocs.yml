@@ -3,8 +3,6 @@ nav:
       - index.md
       - about.md
       - bookmark.md
-  - Blog:
-      - blog/index.md
   - SkyHigh:
       - nya/index.md
       - Outlook:
@@ -12,7 +10,10 @@ nav:
       - TimeLine:
           - nya/24-b.md
           - nya/24-a.md
-
+  - CYCLIST:
+      - bike/index.md
+  - Blog:
+      - blog/index.md
   - Project:
       - proj/index.md
       - proj/kon.md
@@ -40,10 +41,8 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   logo: img/l.svg
-  font:
-    text: "Noto Sans SC"
-    code: "Noto Sans SC"
   language: zh
+  font: false
   features:
     - navigation.tracking
     - navigation.tabs
@@ -80,7 +79,7 @@ theme:
 plugins:
   - git-revision-date-localized:
       type: custom
-      custom_format: "%H:%M %a %d %b %Y"
+      custom_format: "%H:%M, %d %b %Y"
       timezone: Asia/Shanghai
       exclude:
         - blog/*
