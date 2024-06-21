@@ -4,4 +4,8 @@
   --md-accent-fg-color:         #2c84ff;
 }
 
+.md-grid {
+  max-width: 1314px; 
+}
+
 
