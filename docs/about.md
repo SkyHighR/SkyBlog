@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# **关于SkyHigh**
+# **关于**
 
 ## SkyHigh
 
@@ -36,7 +36,6 @@ comments: true
 
 </div>
 
-
 ## 网站的历史
 
 ### 更新历史
@@ -58,7 +57,7 @@ comments: true
 
     没错，本人的第一个域名，存活2年，19-20年，是刚刚上高中时注册的。关于含义：zrt是咱姓名缩写，6369在9键里可以打出你的名字，这样就成了，页面只有一个，WordPress的HelloWorld页面。
 
-??? success "前世"
+??? failure "前世"
     - skybreezy.com
 
     第二任域名，于24年5月主动放弃所有权，但在我心中仍有着一些特殊含义[^1]。  
