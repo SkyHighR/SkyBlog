@@ -13,8 +13,6 @@ nav:
           - nya/24-a.md
       - Outlook:
           - nya/stoic.md
-  - 骑行:
-      - bike/index.md
   - 项目:
       - proj/index.md
       - proj/kon.md
@@ -88,6 +86,7 @@ plugins:
       timezone: Asia/Shanghai
       exclude:
         - blog/*
+        - index.md
       enable_creation_date: true
   - search:
       lang:
@@ -119,7 +118,7 @@ plugins:
 
 markdown_extensions:
   - toc:
-      permalink: ⚓︎ 喵点
+      permalink: ⚓︎
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower

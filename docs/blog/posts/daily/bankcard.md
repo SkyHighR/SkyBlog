@@ -8,7 +8,7 @@ slug: 4ycard
 authors:
   - skyhigh
 categories:
-  - 卡
+  - 卡粉
   - 日常
 ---
 
@@ -46,7 +46,7 @@ categories:
 <div class="grid cards" markdown>
 
  
--   :material-image-multiple:{ .lg .middle } **中国银行的卡**
+-   :material-credit-card:{ .lg .middle } **中国银行的卡**
 
     ---
     - 跨境通Visa卡

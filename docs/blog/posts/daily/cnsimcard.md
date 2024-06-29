@@ -8,7 +8,7 @@ slug: fakesim
 authors:
   - skyhigh
 categories:
-  - 卡
+  - 卡粉
   - 日常
 ---
 

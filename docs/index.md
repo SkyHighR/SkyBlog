@@ -2,7 +2,7 @@
 status: new
 ---
 
-# **嗨!这里是SkyHigh,很高兴认识你**
+# **嗨!这儿是SkyHigh的站点**
 
 ---
 
@@ -24,8 +24,9 @@ status: new
 
 ---
 
-**~Index就这！嗯(≧∇≦)ﾉ**  
-[**别点这里** :material-nfc-variant-off:](https://mypic.skyhigh.moe/picv/nana.mp4){target="_blank"}  
-[**这里也别点** :material-close-network-outline:](https://mypic.skyhigh.moe/picv/sleepg.mp4){target="_blank"}
+
+
 
 Made with [**Material for MkDocs**](https://github.com/squidfunk/mkdocs-material),[**Cloudflare Pages**](https://pages.cloudflare.com/),[**Giscus**](https://github.com/giscus/giscus).
+
+[**别点**](https://mypic.skyhigh.moe/picv/nana.mp4){target="_blank"}[**这里** :octicons-code-review-16:](https://mypic.skyhigh.moe/picv/sleepg.mp4){target="_blank"}
